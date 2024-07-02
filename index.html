@@ -13,34 +13,61 @@
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
-    <header class="header">
-      <nav class="theme-menu header__theme-menu">
-        <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
-        <ul class="theme-menu__list">
-          <li class="theme-menu__item">
-            <button type="button" data-theme="dark" class="theme-menu__button">
-              Темно
-            </button>
-          </li>
-          <li class="theme-menu__item">
-            <button
-              type="button"
-              data-theme="auto"
-              disabled
-              class="theme-menu__button"
-            >
-              Авто
-            </button>
-          </li>
-          <li class="theme-menu__item">
-            <button type="button" data-theme="light" class="theme-menu__button">
-              Светло
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main></main>
-    <script src="./scripts/like.js"></script>
+    <div class="content">
+      <header class="header">
+        <h1 class="header_title">
+        html
+        </h1>
+        <h2 class="header_subtitle">
+        закрывающий тег
+        </h2>
+        <nav class="theme-menu header__theme-menu">
+          <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
+          <ul class="theme-menu__list">
+            <li class="theme-menu__item">
+              <button type="button" data-theme="dark" class="theme-menu__button">
+                Темно
+              </button>
+            </li>
+            <li class="theme-menu__item">
+              <button
+                type="button"
+                data-theme="auto"
+                disabled
+                class="theme-menu__button"
+              >
+                Авто
+              </button>
+            </li>
+            <li class="theme-menu__item">
+              <button type="button" data-theme="light" class="theme-menu__button">
+                Светло
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <card class="card">
+          <h3 class="card_title">
+            Фритрек и нулевой спринт: Подготовка к работе
+          </h3>
+          <img class="image" src="/images/image.png">
+          <div class="card_text_block">
+            <p class="card_text">
+              Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.
+            </p>
+            <p class="card_text">
+              Место для ваших воспоминаний о начале обучения.
+            </p>
+          </div>
+          <div class="card_grade">
+          </div>
+        </card>
+      </main>
+      <footer>
+      </footer>
+      <script src="./scripts/like.js"></script>
+    </div>
   </body>
 </html>
