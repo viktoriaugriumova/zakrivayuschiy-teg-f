@@ -6,11 +6,12 @@
 */
 
 :root.theme_dark {
-    --cover-image: var(--gradient);
     --background-color: rgba(0, 0, 0, 1);
     --text-color: rgba(0, 204, 20, 1);
-    --main-font:;
-    --accent-font:;
+    --main-font: 'Inter-Variable';
+    --accent-font: 'PressStart2P';
+    --font-weigth-title: 700;
+    --font-weigth-text: 400;
     --gradient-color-start: rgba(0, 127, 12, 1);
     --gradient-color-end: rgba(0, 67, 6, 1);
     --gradient: repeating-linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-start) 2px, transparent 2px, transparent 4px),
@@ -20,11 +21,12 @@
 
 @media (prefers-color-scheme: dark) {
     .page {
-        --cover-image: var(--gradient);
         --background-color: rgba(0, 0, 0, 1);
         --text-color: rgba(0, 204, 20, 1);
-        --main-font:;
-        --accent-font:;
+        --main-font: 'Inter-Variable';
+        --accent-font: 'PressStart2P';
+        --font-weigth-title: 700;
+        --font-weigth-text: 400;
         --gradient-color-start: rgba(0, 127, 12, 1);
         --gradient-color-end: rgba(0, 67, 6, 1);
         --gradient: repeating-linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-start) 2px, transparent 2px, transparent 4px),
@@ -34,11 +36,12 @@
 }
 
 :root.theme_light {
-    --cover-image: var(--gradient);
     --background-color: rgba(231, 231, 231, 1);
     --text-color: rgba(0, 0, 0, 1);
-    --main-font:;
-    --accent-font:;
+    --main-font: 'Inter-Variable';
+    --accent-font: 'PressStart2P';
+    --font-weigth-title: 700;
+    --font-weigth-text: 400;
     --gradient-color-start: rgba(231, 231, 231, 1);
     --gradient-color-end: rgba(26, 26, 26, 1);
     --gradient: repeating-linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-start) 2px, transparent 2px, transparent 4px),
@@ -48,11 +51,12 @@
 
 @media (prefers-color-scheme: light) {
     .page {
-        --cover-image: var(--gradient);
         --background-color: rgba(231, 231, 231, 1);
         --text-color: rgba(0, 0, 0, 1);
-        --main-font:;
-        --accent-font:;
+        --main-font: 'Inter-Variable';
+        --accent-font: 'PressStart2P';
+        --font-weigth-title: 700;
+        --font-weigth-text: 400;
         --gradient-color-start: rgba(231, 231, 231, 1);
         --gradient-color-end: rgba(26, 26, 26, 1);
         --gradient: repeating-linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-start) 2px, transparent 2px, transparent 4px),

@@ -4,8 +4,6 @@
     /* --cover-image: url(/images/background_light.png); */
     --background-color: rgba(231, 231, 231, 1);
     --text-color: rgba(0, 0, 0, 1);
-    --main-font:;
-    --accent-font:;
     --gradient-color-start: rgba(231, 231, 231, 1);
     --gradient-color-end: rgba(26, 26, 26, 1);
 }
