@@ -87,7 +87,7 @@
 
 .card_title {
   color: var(--text-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   font-family: Inter;
   font-size: 18px;
   font-weight: 785;
@@ -108,7 +108,7 @@
 
 .card_text {
   color: var(--text-color);
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   font-family: Inter;
   font-size: 18px;
   font-weight: 465;
