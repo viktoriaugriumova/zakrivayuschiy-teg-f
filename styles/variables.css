@@ -1,7 +1,11 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 .page {
-    --cover-image: url(/images/background.png);
-    --background-color: rgba(0, 0, 0, 1);
-    --text-color: rgba(0, 204, 20, 1);
+    /* --cover-image: url(/images/background_light.png); */
+    --background-color: rgba(231, 231, 231, 1);
+    --text-color: rgba(0, 0, 0, 1);
+    --main-font:;
+    --accent-font:;
+    --gradient-color-start: rgba(231, 231, 231, 1);
+    --gradient-color-end: rgba(26, 26, 26, 1);
 }
