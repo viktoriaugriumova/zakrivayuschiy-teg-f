@@ -8,6 +8,7 @@
 :root.theme-dark {
     --background-color: rgba(0, 0, 0, 1);
     --text-color: rgba(0, 204, 20, 1);
+    --transparent-text-color: rgb(0 204 20 / 0.6);
     --main-font: 'Inter-Variable', sans-serif;
     --accent-font: 'Press Start 2P-Regular';
     --main-font-weigth: 400;
@@ -23,6 +24,7 @@
     :root {
         --background-color: rgba(0, 0, 0, 1);
         --text-color: rgba(0, 204, 20, 1);
+        --transparent-text-color: rgb(0 204 20 / 0.6);
         --main-font: 'Inter-Variable', sans-serif;
         --accent-font: 'Press Start 2P-Regular';
         --main-font-weigth: 400;
@@ -38,6 +40,7 @@
 :root.theme-light {
     --background-color: rgba(255, 255, 255, 1);
     --text-color: rgba(0, 0, 0, 1);
+    --transparent-text-color: rgb(0 0 0 / 0.6);
     --main-font: 'Inter-Variable', sans-serif;
     --accent-font: 'Press Start 2P-Regular';
     --main-font-weigth: 400;
@@ -53,6 +56,7 @@
     :root {
         --background-color: rgba(255, 255, 255, 1);
         --text-color: rgba(0, 0, 0, 1);
+        --transparent-text-color: rgb(0 0 0 / 0.6);
         --main-font: 'Inter-Variable', sans-serif;
         --accent-font: 'Press Start 2P-Regular';
         --main-font-weigth: 400;

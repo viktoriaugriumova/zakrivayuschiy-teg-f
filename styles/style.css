@@ -93,16 +93,27 @@
   pointer-events: none;
 }
 
-/* ЭТО НЕ РАБОТАЕТ */
-/* .theme-menu__button:focus {
+.theme-menu__button:after {
+  display: block;
+  position: absolute;
+  margin-block-start: 3px;
+  width: 0;
+  content: "";
+  border-bottom: 2px solid var(--transparent-text-color);
+  transform: scale(0);
+  transition: transform(0.3s);
+}
+
+.theme-menu__button:focus {
   outline: none;
 }
 
+/* ТУТ НЕ ПЛАВНО ПОДЧЕРКИВАЕТ */
 .theme-menu__button:focus-visible::after {
-  transform: scale(0 1);
   width: 100%;
-  color: var(--transparent-text-color);
-} */
+  transform: scale(1, 1);
+  transform-origin: left;
+}
 
 .theme-menu__button:disabled::before {
   content: '▶';
@@ -129,14 +140,19 @@
   position: relative;
 }
 
+/* Тут почему-то вотермарка берет за родителя page */
 .watermark {
   text-transform: uppercase;
-  color: aqua;
-  position: absolute;
-  top: 60px;
-  left: 573px;
   font-family: var(--accent-font);
   font-variation-settings: var(--main-font-weigth);
+  font-size: 14px;
+  color: aqua;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  inset-block-start: 0;
+  top: 25px;
+  right: 25px;
+  opacity: 0.5;
 }
 
 .image {
@@ -170,6 +186,7 @@
   justify-content: flex-end;
   margin: 0px 25px 25px 0px;
   align-items: flex-end;
+  position: relative;
 }
 
 .card__icon-button {
@@ -183,6 +200,30 @@
   padding: 9px 17px 9px 17px;
   background-color: transparent;
   font-family: var(--accent-font);
+}
+
+.card__like-button:focus-visible {
+  border-style: none;
+  box-shadow: 2px 2px 0px 0px var(--text-color);
+}
+
+.card__like-button:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 130px;
+  height: 38px;
+  overflow: hidden;
+  transform: scaleX(0);
+  background-color: var(--text-color);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+.card__like-button:hover::before {
+  animation: hover-button 0.5s ease-in-out;
 }
 
 
@@ -209,5 +250,14 @@
   }
   to {
     left: -12px;
+  }
+}
+
+@keyframes hover-button {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
   }
 }
