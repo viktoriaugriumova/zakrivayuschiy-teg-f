@@ -85,11 +85,30 @@
   position: relative;
 }
 
+.theme-menu__button:disabled {
+  animation-name: transparent;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  pointer-events: none;
+}
+
+/* ЭТО НЕ РАБОТАЕТ */
+/* .theme-menu__button:focus {
+  outline: none;
+}
+
+.theme-menu__button:focus-visible::after {
+  transform: scale(0 1);
+  width: 100%;
+  color: var(--transparent-text-color);
+} */
+
 .theme-menu__button:disabled::before {
   content: '▶';
   position: absolute;
   left: -16px;
-
+  animation: jump 0.5s infinite ease-in-out alternate;
 }
   
 .card {
@@ -106,10 +125,19 @@
   margin-left: 5px;
 }
 
-ТУТ надо добавить цвет
-/* .label {
-  background-blend-mode: hard-light;
-} */
+.vizual {
+  position: relative;
+}
+
+.watermark {
+  text-transform: uppercase;
+  color: aqua;
+  position: absolute;
+  top: 60px;
+  left: 573px;
+  font-family: var(--accent-font);
+  font-variation-settings: var(--main-font-weigth);
+}
 
 .image {
   width: 100%;
@@ -155,4 +183,31 @@
   padding: 9px 17px 9px 17px;
   background-color: transparent;
   font-family: var(--accent-font);
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes transparent {
+  from {
+    color: var(--text-color);
+  }
+  to {
+    color: var(--transparent-text-color);
+  }
+}
+
+@keyframes jump {
+  from {
+    left: -16px;
+  }
+  to {
+    left: -12px;
+  }
 }
