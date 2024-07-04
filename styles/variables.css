@@ -5,6 +5,7 @@
     --background-color: rgba(255, 255, 255, 1);
     --text-color: rgba(0, 0, 0, 1);
     --transparent-text-color: rgb(0 0 0 / 0.6);
+    --heart-color: rgba(255, 0, 0, 1);
     --gradient-color-start: rgba(231, 231, 231, 1);
     --gradient-color-end: rgba(26, 26, 26, 1);
 }

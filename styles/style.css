@@ -202,6 +202,16 @@
   animation: border 0.3s ease forwards;
 }
 
+.sparks {
+  opacity: 0;
+}
+
+.like-icon {
+
+}
+
+0.3s
+
 .card__like-button {
   width: 130px;
   height: 38px;
