@@ -73,6 +73,7 @@
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  gap: 14px;
 }
 
 .theme-menu__button {
@@ -94,26 +95,25 @@
 }
 
 .theme-menu__button:after {
+  content: "";
   display: block;
+  width: 0;
+  height: 3px;
+  opacity: 0.6;
+  background-color: var(--text-color);
   position: absolute;
   margin-block-start: 3px;
-  width: 0;
-  content: "";
-  border-bottom: 2px solid var(--transparent-text-color);
-  transform: scale(0);
-  transition: transform(0.3s);
+  transition: width 300ms;
 }
 
 .theme-menu__button:focus {
   outline: none;
 }
 
-/* ТУТ НЕ ПЛАВНО ПОДЧЕРКИВАЕТ */
 .theme-menu__button:focus-visible::after {
   width: 100%;
-  transform: scale(1, 1);
-  transform-origin: left;
 }
+
 
 .theme-menu__button:disabled::before {
   content: '▶';
@@ -146,7 +146,7 @@
   font-family: var(--accent-font);
   font-variation-settings: var(--main-font-weigth);
   font-size: 14px;
-  color: aqua;
+  color: blue;
   mix-blend-mode: hard-light;
   position: absolute;
   inset-block-start: 0;
