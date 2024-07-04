@@ -182,16 +182,24 @@
 
 .card_grade {
   display: flex;
-  gap: 12px;
+  gap: 3px;
   justify-content: flex-end;
   margin: 0px 25px 25px 0px;
-  align-items: flex-end;
   position: relative;
 }
 
 .card__icon-button {
   background-color: transparent;
   border: none;
+  height: 38px;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  animation: border 0.3s ease forwards;
 }
 
 .card__like-button {
@@ -202,9 +210,13 @@
   font-family: var(--accent-font);
 }
 
+.card__like-button:focus {
+  outline: none;
+}
+
 .card__like-button:focus-visible {
   border-style: none;
-  box-shadow: 2px 2px 0px 0px var(--text-color);
+  box-shadow: 2px 2px 2px 2px var(--text-color);
 }
 
 .card__like-button:before {
@@ -222,6 +234,7 @@
   margin-left: -20px;
 }
 
+/* ТУТ НЕ ХВАТАЕТ ИНВЕРСИИ ЦВЕТА В КНОПКЕ */
 .card__like-button:hover::before {
   animation: hover-button 0.5s ease-in-out;
 }
@@ -259,5 +272,14 @@
   }
   to {
     transform: scaleX(1);
+  }
+}
+
+@keyframes border {
+  from {
+    border: none;
+  }
+  to {
+    border: 2px solid var(--text-color);
   }
 }
