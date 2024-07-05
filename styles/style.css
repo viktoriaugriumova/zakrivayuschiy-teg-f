@@ -249,6 +249,14 @@
   mix-blend-mode: difference;
 }
 
+.core {
+  transition: fill 0.9s ease;
+  fill: var(--background-color);
+}
+
+.like-icon:hover .core {
+  fill: rgb(57, 12, 180);
+}
 
 
 
