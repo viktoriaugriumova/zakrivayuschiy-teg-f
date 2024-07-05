@@ -243,7 +243,11 @@
   animation: hover-button 0.5s ease-in-out;
 }
 
-
+.button__text {
+  position: relative;
+  color: var(--background-color);
+  mix-blend-mode: difference;
+}
 
 
 
