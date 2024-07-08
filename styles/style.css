@@ -304,7 +304,12 @@
   animation-iteration-count: 2;
 }
 
-
+.flop {
+  block-size: 1.313rem;
+  inline-size: 1.313rem;
+  color: var(--background-color);
+  mix-blend-mode: difference;
+}
 
 
 
