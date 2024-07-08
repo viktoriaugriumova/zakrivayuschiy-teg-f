@@ -147,7 +147,6 @@
 }
 
 .watermark {
-  text-transform: uppercase;
   font-family: var(--accent-font);
   font-variation-settings: var(--main-font-weigth);
   font-size: 14px;
