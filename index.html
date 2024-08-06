@@ -355,7 +355,11 @@
         </article>
       </main>
       <footer class="footer">
-        <button class="save_button">
+        <button class="save_button"
+          type="button" 
+          onclick="window['save_modal'].showModal()"
+          aria-controls="save_modal"
+          >
           <svg class="flop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
             <use href="./svg/symbol.svg#flop">
           </svg>
@@ -363,6 +367,21 @@
           </span>
         </button>
       </footer>
+      <dialog class="dialog" id="save_modal">
+        <div class="dialog_text">
+          <svg class="flop dialog_flop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+            <use href="./svg/symbol.svg#flop">
+          </svg>
+          <span class="button__text">Вставьте <br>дискету, чтобы продолжить</span>
+        </div>
+        <button class="dialog_button"
+          type="button" 
+          onclick="window['save_modal'].close()"
+        >
+          <span class="button__text">Ок
+          </span>
+        </button>
+      </dialog>
       <script src="./scripts/like.js"></script>
     </div>
   </body>
