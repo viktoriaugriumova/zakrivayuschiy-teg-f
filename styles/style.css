@@ -250,6 +250,7 @@
   padding: 9px 17px 9px 17px;
   background-color: transparent;
   font-family: var(--accent-font);
+  border: 2px solid var(--text-color);
 }
 
 .card__like-button:focus {
