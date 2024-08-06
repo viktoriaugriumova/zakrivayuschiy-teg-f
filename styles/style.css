@@ -282,7 +282,7 @@
 
 .button__text {
   position: relative;
-  color: var(--background-color);
+  color: var(--button-text-invert-color);
   mix-blend-mode: difference;
 }
 
