@@ -151,12 +151,21 @@
   font-size: 14px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--background-color);
+  text-shadow: 1px;
   mix-blend-mode: hard-light;
   position: absolute;
   inset-block-start: 0;
   top: 25px;
   right: 25px;
   opacity: 0.5;
+}
+
+@supports((text-stroke: 1px) or (-webkit-text-stroke: 1px)) {
+  p {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--background-color);
+    text-shadow: none;
+  }
 }
 
 .image {
