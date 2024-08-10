@@ -389,7 +389,7 @@
   border: 2px solid var(--text-color);
 }
 
-.dialog:has([open]) {
+.dialog[open] {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
