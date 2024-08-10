@@ -287,7 +287,6 @@
   mix-blend-mode: difference;
 }
 
-/* ТУТ надо прописать уход с ховера и перекрашивание сердца обратно после лайка */
 .core {
   transition: fill 0.3s linear;
 }
