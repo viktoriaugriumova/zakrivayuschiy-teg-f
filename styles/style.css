@@ -377,7 +377,6 @@
   margin-left: -10px;
 }
 
-/* Тут иконка не меняет цвет по ховеру */
 .save_button:hover::before {
   animation: hover-button 0.5s ease-in-out;
 }
@@ -390,10 +389,11 @@
 .dialog {
   width: 357px;
   height: 193px;
+  background-color: var(--background-color);
+  border: 2px solid var(--text-color);
 }
 
-Тут непонятно как применить стили к наличию атрибута
-.dialog:has(open) {
+.dialog:has([open]) {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -429,6 +429,7 @@
   background-color: transparent;
   font-family: var(--accent-font);
   text-transform: uppercase;
+  border: 2px solid var(--text-color);
 }
 
 
