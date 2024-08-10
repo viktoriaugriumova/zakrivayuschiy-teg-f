@@ -136,7 +136,6 @@
 .card_title {
   color: var(--text-color);
   font-family: var(--main-font);
-  font-variation-settings: var(--accent-font-weigth);
   text-align: left;
   font-variation-settings: 'slnt' 0;
   margin-left: 5px;
@@ -194,7 +193,7 @@
 }
 
 .eight_image {
-  filter: sepia(80%);
+  filter: sepia(80%) contrast(50%);
 }
 
 
@@ -205,7 +204,6 @@
 .card_text {
   color: var(--text-color);
   font-family: var(--main-font);
-  font-variation-settings: var(--main-font-weigth);
   text-align: left;
   font-variation-settings: 'slnt' 0;
   margin: 25px 25px 0px 25px;
@@ -214,7 +212,6 @@
 .card_subtext {
   margin: 27px 25px 25px 25px;
   font-family: var(--main-font);
-  font-variation-settings: var(--main-font-weigth);
   font-variation-settings: 'slnt' 0;
 }
 
