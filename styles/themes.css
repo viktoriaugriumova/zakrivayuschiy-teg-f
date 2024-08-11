@@ -12,7 +12,7 @@
     --button-text-invert-color: rgba(0, 204, 20, 1);
     --transparent-text-color: rgb(0 204 20 / 0.6);
     --main-font: 'Inter-Variable', sans-serif;
-    --accent-font: 'Press Start 2P-Regular';
+    --accent-font: 'Press Start 2P';
     --main-font-weigth: 400;
     --accent-font-weigth: 700;
     --gradient-color-start: rgba(0, 127, 12, 1);
@@ -30,7 +30,7 @@
         --button-text-invert-color: rgba(0, 204, 20, 1);
         --transparent-text-color: rgb(0 204 20 / 0.6);
         --main-font: 'Inter-Variable', sans-serif;
-        --accent-font: 'Press Start 2P-Regular';
+        --accent-font: 'Press Start 2P';
         --main-font-weigth: 400;
         --accent-font-weigth: 700;
         --gradient-color-start: rgba(0, 127, 12, 1);
@@ -48,7 +48,7 @@
     --button-text-invert-color: rgba(255, 255, 255, 1);
     --transparent-text-color: rgb(0 0 0 / 0.6);
     --main-font: 'Inter-Variable', sans-serif;
-    --accent-font: 'Press Start 2P-Regular';
+    --accent-font: 'Press Start 2P';
     --main-font-weigth: 400;
     --accent-font-weigth: 700;
     --gradient-color-start: rgba(231, 231, 231, 1);
@@ -66,7 +66,7 @@
         --button-text-invert-color: rgba(255, 255, 255, 1);
         --transparent-text-color: rgb(0 0 0 / 0.6);
         --main-font: 'Inter-Variable', sans-serif;
-        --accent-font: 'Press Start 2P-Regular';
+        --accent-font: 'Press Start 2P';
         --main-font-weigth: 400;
         --accent-font-weigth: 700;
         --gradient-color-start: rgba(231, 231, 231, 1);
