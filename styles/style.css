@@ -92,8 +92,7 @@
 
 .theme-menu__button:disabled {
   animation-name: transparent;
-  animation-duration: 0.3s;
-  animation-timing-function: ease;
+  /* Тут почему-то ревьюер говорит, что свойство снизу уже описано, но описано для псевдоэлемента, а не для кнопки */
   animation-fill-mode: forwards;
   pointer-events: none;
 }
@@ -153,8 +152,6 @@
   font-family: var(--accent-font);
   font-variation-settings: var(--main-font-weigth);
   font-size: 14px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--background-color);
   text-shadow: 1px;
   mix-blend-mode: hard-light;
   position: absolute;
@@ -165,7 +162,7 @@
 }
 
 @supports((text-stroke: 1px) or (-webkit-text-stroke: 1px)) {
-  p {
+  .watermark {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--background-color);
     text-shadow: none;
@@ -177,35 +174,35 @@
   border: 0px 2px 0px 2px solid var(--text-color);
 }
 
-.first_image {
+.filter__brightness {
   filter: brightness(200%);
 }
 
-.second_image {
+.filter__contrast {
   filter: contrast(20%);
 }
 
-.third_image {
+.filter__blur {
   filter: blur(3.2rem);
 }
 
-.fourth_image {
+.filter__opacity {
   filter: opacity(0.8);
 }
 
-.fith_image {
+.filter__grayscale {
   filter: grayscale(0.8);
 }
 
-.sixth_image {
+.filter__saturate {
   filter: saturate(158%);
 }
 
-.seventh_image {
+.filter__hue-rotate {
   filter: hue-rotate(-90deg);
 }
 
-.eight_image {
+.filter__sepia-contrast {
   filter: sepia(80%) contrast(50%);
 }
 
