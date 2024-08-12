@@ -42,7 +42,7 @@
   margin-bottom: 102px;
 }
 
-.header_title {
+.logo {
   color: var(--text-color);
   text-transform: uppercase;
   font-family: var(--accent-font);
@@ -205,22 +205,17 @@
   filter: sepia(80%) contrast(50%);
 }
 
-
 .card_text_block {
-  margin-top: -5px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .card_text {
   color: var(--text-color);
   font-family: var(--main-font);
   text-align: left;
-  font-variation-settings: 'slnt' 0;
-  margin: 25px 25px 0px 25px;
-}
-
-.card_subtext {
-  margin: 27px 25px 25px 25px;
-  font-family: var(--main-font);
   font-variation-settings: 'slnt' 0;
 }
 
@@ -409,7 +404,7 @@
   backdrop-filter: blur(7px);
 }
 
-.dialog_text {
+.dialog_section {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -425,6 +420,10 @@
 .dialog_flop {
   width: 50px;
   height: 50px;
+}
+
+.dialog_text {
+  width: 70%;
 }
 
 .dialog_button {
