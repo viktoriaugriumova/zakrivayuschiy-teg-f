@@ -53,6 +53,10 @@
   margin-top: 136px;
 }
 
+.logo:focus {
+  outline: none;
+}
+
 .header_subtitle {
   color: var(--text-color);
   text-transform: uppercase;
