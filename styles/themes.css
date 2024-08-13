@@ -13,8 +13,8 @@
     --transparent-text-color: rgb(0 204 20 / 0.6);
     --main-font: 'Inter-Variable', sans-serif;
     --accent-font: 'Press Start 2P', fantasy;
-    --main-font-weigth: 400;
-    --accent-font-weigth: 700;
+    --main-font-weight: 400;
+    --accent-font-weight: 700;
     --gradient-color-start: rgba(0, 127, 12, 1);
     --gradient-color-end: rgba(0, 67, 6, 1);
     --gradient: repeating-linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-start) 2px, transparent 2px, transparent 4px),
@@ -31,8 +31,8 @@
         --transparent-text-color: rgb(0 204 20 / 0.6);
         --main-font: 'Inter-Variable', sans-serif;
         --accent-font: 'Press Start 2P', fantasy;
-        --main-font-weigth: 400;
-        --accent-font-weigth: 700;
+        --main-font-weight: 400;
+        --accent-font-weight: 700;
         --gradient-color-start: rgba(0, 127, 12, 1);
         --gradient-color-end: rgba(0, 67, 6, 1);
         --gradient: repeating-linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-start) 2px, transparent 2px, transparent 4px),
@@ -49,8 +49,8 @@
     --transparent-text-color: rgb(0 0 0 / 0.6);
     --main-font: 'Inter-Variable', sans-serif;
     --accent-font: 'Press Start 2P', fantasy;
-    --main-font-weigth: 400;
-    --accent-font-weigth: 700;
+    --main-font-weight: 400;
+    --accent-font-weight: 700;
     --gradient-color-start: rgba(231, 231, 231, 1);
     --gradient-color-end: rgba(26, 26, 26, 1);
     --gradient: repeating-linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-start) 2px, transparent 2px, transparent 4px),
@@ -67,8 +67,8 @@
         --transparent-text-color: rgb(0 0 0 / 0.6);
         --main-font: 'Inter-Variable', sans-serif;
         --accent-font: 'Press Start 2P', fantasy;
-        --main-font-weigth: 400;
-        --accent-font-weigth: 700;
+        --main-font-weight: 400;
+        --accent-font-weight: 700;
         --gradient-color-start: rgba(231, 231, 231, 1);
         --gradient-color-end: rgba(26, 26, 26, 1);
         --gradient: repeating-linear-gradient(to right, var(--gradient-color-start), var(--gradient-color-start) 2px, transparent 2px, transparent 4px),
