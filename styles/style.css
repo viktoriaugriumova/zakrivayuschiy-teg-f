@@ -266,6 +266,8 @@
   font-family: var(--accent-font);
   border: 2px solid var(--text-color);
   cursor: pointer;
+  overflow: hidden;
+  position: relative;
 }
 
 .card__like-button {
@@ -293,26 +295,26 @@
 
 .button:before {
   content: "";
-  position: absolute;
   display: block;
-  width: 130px;
-  height: 38px;
-  overflow: hidden;
-  transform: scaleX(0);
+  position: absolute;
+  transform: translate(-100%);
+  left: 0;
+  top: 0;
+  width: 120%;
+  height: 100%;
   background-color: var(--text-color);
-  transform-origin: left;
   transition: transform 0.5s ease-in-out;
-  margin-top: -10px;
-  margin-left: -20px;
+  overflow: hidden;
 }
 
-/* .save_button:before {
-  width: 355px;
-  height: 51px;
-} */
-
 .button:hover::before {
-  transform: scale(1);
+  transform: translate(-20px);
+}
+
+.button:hover .flop {
+  mix-blend-mode: difference;
+  position: relative;
+  color: var(--button-text-invert-color);
 }
 
 .button__text {
