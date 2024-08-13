@@ -447,6 +447,10 @@
 }
 
 @media (width <= 375px) {
+  .content {
+    width: 100%;
+  }
+
   .logo {
     font-size: 49px;
     line-height: 49px;
@@ -458,14 +462,34 @@
     line-height: 14px;
   }
 
-  .card_title {
-    font-variation-settings: 'slnt' 0;
-    margin-left: 10px;
-    line-height: 21.78px;
-    font-size: 18px;
-    margin-top: 3px;
-    margin-bottom: 5px;
-    text-align: left;
-
+  .image {
+    width: 100%;
   }
+
+  .card_title {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    line-height: 21.78px;
+  }
+
+  .card_text_block {
+    margin-bottom: 29px;
+  }
+
+  .save_button {
+    flex-direction: column;
+    gap: 8px;
+    height: 84px;
+    width: 306px;
+  }
+
+  .flop {
+    width: 35px;
+    height: 35px;
+  }
+
+
+  
 }
