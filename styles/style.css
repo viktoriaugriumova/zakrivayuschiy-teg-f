@@ -445,3 +445,27 @@
   text-transform: uppercase;
   border: 2px solid var(--text-color);
 }
+
+@media (width <= 375px) {
+  .logo {
+    font-size: 49px;
+    line-height: 49px;
+    margin-top: 118px;
+  }
+
+  .header_subtitle {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .card_title {
+    font-variation-settings: 'slnt' 0;
+    margin-left: 10px;
+    line-height: 21.78px;
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    text-align: left;
+
+  }
+}
