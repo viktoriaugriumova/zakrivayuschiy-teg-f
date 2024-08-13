@@ -252,6 +252,7 @@
   background-color: var(--background-color);
   font-family: var(--accent-font);
   border: 2px solid var(--text-color);
+  cursor: pointer;
 }
 
 .save_button {
@@ -261,6 +262,7 @@
   min-height: 51px;
   margin-top: 52px;
   margin-bottom: 105px;
+  cursor: pointer;
 }
 
 .button:focus {
