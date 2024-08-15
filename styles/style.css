@@ -158,6 +158,8 @@
 
 .visual {
   position: relative;
+  border-top: 2px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
 }
 
 .watermark {
@@ -166,6 +168,7 @@
   font-size: 14px;
   text-shadow: 1px;
   mix-blend-mode: hard-light;
+  color: var(--transparent-text-color);
   position: absolute;
   inset-block-start: 0;
   top: 25px;
@@ -179,10 +182,6 @@
     -webkit-text-stroke-color: var(--background-color);
     text-shadow: none;
   }
-}
-
-.image {
-  border: 0px 2px 0px 2px solid var(--text-color);
 }
 
 .filter__brightness {
