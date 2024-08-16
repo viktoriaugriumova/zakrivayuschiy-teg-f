@@ -246,6 +246,9 @@
   border: none;
   height: 38px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__icon-button:focus {
