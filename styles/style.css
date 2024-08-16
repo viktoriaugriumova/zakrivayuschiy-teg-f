@@ -168,7 +168,7 @@
   font-size: 14px;
   text-shadow: 1px;
   mix-blend-mode: hard-light;
-  color: var(--transparent-text-color);
+  color: var(--text-color);
   position: absolute;
   inset-block-start: 0;
   top: 25px;
