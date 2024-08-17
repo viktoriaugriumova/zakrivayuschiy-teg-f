@@ -14,6 +14,11 @@
 
 */
 
+/* * { 
+  outline: 1px solid blue;
+} */
+/* Я добавила и проверила все элементы. Ничего не вываливается или я не понимаю о каком элементе этот коммент ревьюера */
+
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -21,10 +26,10 @@
   background-size: cover;
   background-attachment: fixed;
   font-family: var(--main-font);
-  font-variation-settings: 'wght' 465;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .content {
@@ -46,6 +51,7 @@
   color: var(--text-color);
   text-transform: uppercase;
   font-family: var(--accent-font);
+  /* Вот тут и далее везде в коде я использую вариативный шрифт и использую переменную для него. Я не понмиаю о чем коммент про вариативные шрифты */
   font-variation-settings: var(--accent-font-weight);
   font-size: 65px;
   line-height: 65px;
@@ -143,6 +149,9 @@
 .card {
   background-color: var(--background-color);
   border: 2px solid var(--text-color);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .card_title {
@@ -160,6 +169,10 @@
   position: relative;
   border-top: 2px solid var(--text-color);
   border-bottom: 2px solid var(--text-color);
+}
+
+.image {
+  width: 100%;
 }
 
 .watermark {
@@ -408,13 +421,14 @@
   width: 357px;
   background-color: var(--background-color);
   border: 2px solid var(--text-color);
+  top: 30px;
 }
 
 .dialog[open] {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   gap: 30px;
+  padding: 30px;
 } 
 
 .dialog::backdrop {
@@ -428,22 +442,24 @@
   color: var(--text-color);
   text-transform: uppercase;
   font-family: var(--accent-font);
-  font-variation-settings: var(--accent-font-weight);
+  font-variation-settings: var(--main-font-weight);
   font-size: 14px;
   line-height: 21px;
   text-align: left;
-  width: 80%;
 }
 
 .dialog_flop {
-  width: 50px;
-  height: 50px;
+  width: 39px;
+  height: 39px;
+}
+
+.dialog_text {
+  width: 70%;
 }
 
 .dialog_button {
   width: 100%;
   height: 38px;
-  padding: 9px 17px 9px 17px;
   background-color: transparent;
   font-family: var(--accent-font);
   text-transform: uppercase;
