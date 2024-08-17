@@ -9,4 +9,6 @@
     --heart-color: rgba(255, 0, 0, 1);
     --gradient-color-start: rgba(231, 231, 231, 1);
     --gradient-color-end: rgba(26, 26, 26, 1);
+    --main-font-weight: 400;
+    --accent-font-weight: 700;
 }

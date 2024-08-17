@@ -51,7 +51,6 @@
   color: var(--text-color);
   text-transform: uppercase;
   font-family: var(--accent-font);
-  /* Вот тут и далее везде в коде я использую вариативный шрифт и использую переменную для него. Я не понмиаю о чем коммент про вариативные шрифты */
   font-variation-settings: var(--accent-font-weight);
   font-size: 65px;
   line-height: 65px;
