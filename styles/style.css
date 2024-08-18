@@ -171,12 +171,12 @@
 
 .visual {
   position: relative;
-  border-top: 2px solid var(--text-color);
-  border-bottom: 2px solid var(--text-color);
 }
 
 .image {
   width: 100%;
+  border-top: 2px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
 }
 
 .watermark {
