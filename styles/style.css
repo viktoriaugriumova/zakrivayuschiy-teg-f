@@ -70,13 +70,13 @@
   font-variation-settings: var(--accent-font-weight);
   font-size: 23px;
   font-weight: 400;
-  line-height: 23px;
+  line-height: 22px;
   text-align: left;
 }
 
 .header__theme-menu {
   margin-top: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 23px;
   margin-left: 20px;
 }
 
@@ -127,10 +127,14 @@
   animation-fill-mode: forwards;
 }
 
+.theme-menu__button:focus-visible {
+  animation-name: transparent;
+  animation-fill-mode: forwards;
+}
+
 .theme-menu__button:focus-visible::after {
   width: 100%;
 }
-
 
 .theme-menu__button:disabled::before {
   content: '▶';
@@ -143,7 +147,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 52px;
+  gap: 50px;
 }
   
 .card {
@@ -158,11 +162,11 @@
   color: var(--text-color);
   font-family: var(--main-font);
   text-align: left;
-  font-variation-settings: 'slnt' 0;
+  font-variation-settings: "wght" var(--accent-font-weight);
   margin-left: 10px;
   font-size: 18px;
   margin-top: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .visual {
@@ -242,7 +246,7 @@
 .card_text {
   color: var(--text-color);
   font-family: var(--main-font);
-  font-variation-settings: 'slnt' 0;
+  font-variation-settings: "wght" var(--main-font-weight);
   font-size: 18px;
   line-height: 21px;
 }
