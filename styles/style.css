@@ -45,10 +45,10 @@
   text-transform: uppercase;
   font-family: var(--accent-font);
   font-variation-settings: var(--accent-font-weight);
-  font-size: 65px;
   line-height: 65px;
   text-align: left;
   margin-top: 135px;
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
 .logo:focus {
@@ -467,12 +467,7 @@
 }
 
 @media (width <= 375px) {
-  .content {
-    width: 100%;
-  }
-
   .logo {
-    font-size: 49px;
     line-height: 49px;
     margin-top: 118px;
   }
@@ -480,10 +475,6 @@
   .header_subtitle {
     font-size: 14px;
     line-height: 14px;
-  }
-
-  .image {
-    width: 100%;
   }
 
   .card_title {
@@ -495,7 +486,7 @@
   }
 
   .card_text_block {
-    margin-bottom: 29px;
+    margin-bottom: 27px;
   }
 
   .save_button {
@@ -509,7 +500,4 @@
     width: 35px;
     height: 35px;
   }
-
-
-  
 }
