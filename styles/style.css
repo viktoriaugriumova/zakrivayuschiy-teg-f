@@ -14,11 +14,6 @@
 
 */
 
-/* * { 
-  outline: 1px solid blue;
-} */
-/* Я добавила этот код и проверила все элементы. Ничего не вываливается или я не понимаю о каком элементе этот коммент ревьюера */
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -33,11 +28,6 @@
   font-variation-settings: "wght" var(--main-font-weight);
 }
 
-.content {
-  width: 77vh;
-  margin-top: 102px;
-}
-
 .header {
   display: flex;
   gap: 20px;
@@ -46,6 +36,8 @@
   background-color: var(--background-color);
   border: 2px solid var(--text-color);
   margin-bottom: 100px;
+  margin-top: 102px;
+  width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
 }
 
 .logo {
@@ -148,6 +140,7 @@
   flex-direction: column;
   align-items: center;
   gap: 50px;
+  width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
 }
   
 .card {
@@ -254,7 +247,7 @@
 .card_grade {
   display: flex;
   justify-content: flex-end;
-  margin: 0px 22px 25px 0px;
+  margin: 0px 25px 25px 0px;
   position: relative;
   gap: 1px;
 }
