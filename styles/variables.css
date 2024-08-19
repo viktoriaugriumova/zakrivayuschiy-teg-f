@@ -1,7 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-    /* --cover-image: url(/images/background_light.png); */
     --background-color: rgba(255, 255, 255, 1);
     --text-color: rgba(0, 0, 0, 1);
     --currentColor: var(var(--text-color));

@@ -355,7 +355,6 @@
   transition-delay: 0.0s;
 }
 
-/* Заливки по ховеру на темную тему нет в макете, не понимаю каким цветом требует от меня залить ревьюер */
 .like-icon:hover .core {
   fill: var(--text-color);
   transition: fill 0.3s linear;
