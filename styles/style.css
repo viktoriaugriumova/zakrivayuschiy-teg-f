@@ -417,7 +417,6 @@
   width: 357px;
   background-color: var(--background-color);
   border: 2px solid var(--text-color);
-  top: 30px;
 }
 
 .dialog[open] {
