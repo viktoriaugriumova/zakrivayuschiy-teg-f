@@ -10,4 +10,6 @@
     --gradient-color-end: rgba(26, 26, 26, 1);
     --main-font-weight: 400;
     --accent-font-weight: 700;
+    --card-title-font-weight: 700;
+    --card-text-font-weight: 400;
 }

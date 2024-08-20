@@ -151,7 +151,7 @@
   color: var(--text-color);
   font-family: var(--main-font);
   text-align: left;
-  font-variation-settings: "wght" var(--accent-font-weight);
+  font-variation-settings: "wght" var(--card-title-font-weight);
   margin-left: 10px;
   font-size: 18px;
   margin-top: 3px;
@@ -235,7 +235,7 @@
 .card_text {
   color: var(--text-color);
   font-family: var(--main-font);
-  font-variation-settings: "wght" var(--main-font-weight);
+  font-variation-settings: "wght" var(--card-text-font-weight);
   font-size: 18px;
   line-height: 21px;
 }
