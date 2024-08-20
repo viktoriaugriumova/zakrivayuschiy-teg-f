@@ -113,13 +113,11 @@
 }
 
 .theme-menu__button:hover {
-  animation-name: transparent;
-  animation-fill-mode: forwards;
+  animation: transparent 0.3s forwards ease;
 }
 
 .theme-menu__button:focus-visible {
-  animation-name: transparent;
-  animation-fill-mode: forwards;
+  animation: transparent 0.3s forwards ease;
 }
 
 .theme-menu__button:focus-visible::after {
