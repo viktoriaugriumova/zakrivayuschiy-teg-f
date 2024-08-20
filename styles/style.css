@@ -263,8 +263,7 @@
 }
 
 .button:focus-visible {
-  border-style: none;
-  box-shadow: 2px 2px 2px 2px var(--text-color);
+  box-shadow: 2px 2px 0px 0px var(--text-color);
 }
 
 .button:before {
