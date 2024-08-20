@@ -317,7 +317,8 @@
 }
 
 .card__icon-button:focus-visible {
-  animation: border 0.3s 0s ease forwards;
+  transition: border 0.3s ease forwards;
+  border: 2px solid var(--text-color);
 }
 
 .sparks {

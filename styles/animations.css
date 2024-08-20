@@ -31,15 +31,6 @@
     }
   }
   
-  @keyframes border {
-    from {
-        border: none;
-    }
-    to {
-      border: 2px solid var(--text-color);
-    }
-  }
-  
   @keyframes liked {
     from {
       transform: scale(1);
