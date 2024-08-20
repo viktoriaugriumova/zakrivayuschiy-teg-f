@@ -113,11 +113,13 @@
 }
 
 .theme-menu__button:hover {
-  animation: transparent 0.3s forwards ease;
+  transition: color 0.3s ease;
+  color: var(--transparent-text-color);
 }
 
 .theme-menu__button:focus-visible {
-  animation: transparent 0.3s forwards ease;
+  transition: color 0.3s ease;
+  color: var(--transparent-text-color);
 }
 
 .theme-menu__button:focus-visible::after {
@@ -411,6 +413,7 @@
 .flop {
   width: 21px;
   height: 21px;
+  color: var(--text-color);
 }
 
 .dialog {
